@@ -18,3 +18,11 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
+}

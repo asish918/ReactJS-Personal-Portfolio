@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     background: rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -17,14 +17,12 @@
     justify-content: flex-start;
     align-items: center;
 
-    img {
-        width: 90px;
-        height: 20px;
-
-        @media screen and (min-width: 2000px) {
-            width: 180px;
-            height: 40px;
-        }
+    .logo-name {
+        font-family: "Agustina Regular";
+        font-weight: bold;
+        font-size: larger;
+        padding: 0 10px;
+        color: var(--secondary-color);
     }
 }
 
@@ -103,7 +101,7 @@
         justify-content: flex-end;
         align-items: flex-end;
         flex-direction: column;
-        background: url(../../assets/bgWhite.png);
+        background: url(../../assets/images/bgWhite.png);
         background-color: var(--white-color);
         background-size: cover;
         background-repeat: repeat;
@@ -146,11 +144,13 @@
                 }
             }
         }
+
         @media screen and (min-width: 900px) {
             display: none;
         }
-        
+
     }
+
     @media screen and (min-width: 900px) {
         display: none;
     }
