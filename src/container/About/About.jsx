@@ -18,7 +18,8 @@ const About = () => {
     return (
         <>
         <h2 className="head-text">
-            I know that <span>Good Dev </span><br />means <span>Good Business</span>
+            Let's normalize not having <br />
+            <span>Boring Bios!</span>
         </h2>
 
         <div className="app__profiles">

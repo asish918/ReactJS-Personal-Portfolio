@@ -1,4 +1,5 @@
 import React from "react"
+import { FaCoffee, FaHeart } from 'react-icons/fa'
 import { NavigationDots, SocialMedia } from '../components'
 
 const AppWrap = (Component, idName, classNames) => function HOC() {
@@ -9,8 +10,8 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
                 <Component />
 
                 <div className="copyright">
-                    <p className="p-text">2022 Asish</p>
-                    <p className="p-text">All rights reserved</p>
+                    <p className="p-text">Made with <FaHeart /> and <FaCoffee /> </p>
+                    <p className="p-text"><span>Asish</span> 2022</p>
                 </div>
             </div>
             <NavigationDots active={idName} />

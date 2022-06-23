@@ -31,6 +31,10 @@ const Testimonials = () => {
 
     return (
         <>
+        <h2 className="marvel-text">
+            Flexing a few tricks feat. <br />
+            <span>MARVEL</span>
+        </h2>
             {testimonials.length && (
                 <>
                     <div className="app__testimonial-item app__flex">
