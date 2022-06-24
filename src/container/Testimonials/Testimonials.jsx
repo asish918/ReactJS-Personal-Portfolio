@@ -3,24 +3,26 @@ import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
+import images from "../../constants/images";
+import { AtroposComponent } from "../../components";
+
 import './Testimonials.scss'
 
 const Testimonials = () => {
-    const [brands, setBrands] = useState([])
     const [testimonials, setTestimonials] = useState([])
     const [currentIndex, setCurrentIndex] = useState(0)
 
     useEffect(() => {
         const query = '*[_type == "testimonials"]'
-        const brandsQuery = '*[_type == "brands"]'
+        // const brandsQuery = '*[_type == "brands"]'
 
         client.fetch(query).then((data) => {
             setTestimonials(data);
         })
 
-        client.fetch(brandsQuery).then((data) => {
-            setBrands(data);
-        })
+        // client.fetch(brandsQuery).then((data) => {
+            // setBrands(data);
+        // })
     }, [])
 
     const handleClick = (index) => {
@@ -59,16 +61,13 @@ const Testimonials = () => {
                 </>
             )}
 
-            <div className="app__testimonials-brands app__flex">
-                {brands.map((brand, index) => (
-                    <motion.div
+            <div className="app__testimonials-brands">
+                    {/* <motion.div
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 0.5, type: 'tween' }}
-                        key={index}
-                    >
-                        <img src={urlFor(brand.imgUrl)} alt="brand-image" />
-                    </motion.div>
-                ))}
+                    > */}
+                        {/* <AtroposComponent /> */}
+                    {/* </motion.div> */}
             </div>
         </>
     )

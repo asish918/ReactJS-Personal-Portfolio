@@ -35,6 +35,8 @@ import bolt from '../assets/images/bolt.png';
 import nb from '../assets/images/nb.png';
 import skype from '../assets/images/skype.png';
 import spotify from '../assets/images/spotify.png';
+import marvel from '../assets/images/marvel_logo.png'
+import marvel_video from '../assets/images/marvel_video.mp4'
 
 export default {
   email,
@@ -71,4 +73,6 @@ export default {
   nb,
   skype,
   spotify,
+  marvel,
+  marvel_video
 };
