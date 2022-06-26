@@ -3,7 +3,6 @@ import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
-import images from "../../constants/images";
 import { AtroposComponent } from "../../components";
 
 import './Testimonials.scss'
@@ -62,12 +61,12 @@ const Testimonials = () => {
             )}
 
             <div className="app__testimonials-brands">
-                    {/* <motion.div
+                    <motion.div
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 0.5, type: 'tween' }}
-                    > */}
-                        {/* <AtroposComponent /> */}
-                    {/* </motion.div> */}
+                    >
+                        <AtroposComponent />
+                    </motion.div>
             </div>
         </>
     )

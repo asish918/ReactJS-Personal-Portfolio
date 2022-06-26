@@ -74,5 +74,5 @@ export default {
   skype,
   spotify,
   marvel,
-  marvel_video
+  marvel_video,
 };
