@@ -7,7 +7,7 @@ const AtroposComponent = () => {
   return (
     <div className="container">
       <Atropos className="atropos-banner" highlight={false}>
-        <img className="atropos-banner-spacer" src={images.bg} alt="" />
+        <img className="atropos-banner-spacer" src={images.marvel} alt="" />
         <video data-atropos-offset="-4.5" autoPlay={true} loop={true} playsInline={true}>
           <source src={images.marvel_video} type="video/mp4" />
         </video>

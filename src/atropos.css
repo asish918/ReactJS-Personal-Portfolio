@@ -43,6 +43,9 @@
   transition-property: transform;
   display: block;
 }
+.atropos-scale {
+  pointer-events: none;
+}
 .atropos-shadow,
 .atropos-highlight {
   position: absolute;
@@ -58,7 +61,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  filter: blur(10px);
+  filter: blur(30px);
 }
 .atropos-highlight {
   left: -50%;
@@ -70,6 +73,7 @@
 }
 .atropos-rotate {
   position: relative;
+  pointer-events: all;
 }
 .atropos-inner {
   width: 100%;

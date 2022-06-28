@@ -13,15 +13,10 @@ const Testimonials = () => {
 
     useEffect(() => {
         const query = '*[_type == "testimonials"]'
-        // const brandsQuery = '*[_type == "brands"]'
 
         client.fetch(query).then((data) => {
             setTestimonials(data);
         })
-
-        // client.fetch(brandsQuery).then((data) => {
-            // setBrands(data);
-        // })
     }, [])
 
     const handleClick = (index) => {
@@ -32,7 +27,7 @@ const Testimonials = () => {
 
     return (
         <>
-        <h2 className="marvel-text">
+        <h2 className="head-text">
             Flexing a few tricks feat. <br />
             <span>MARVEL</span>
         </h2>
