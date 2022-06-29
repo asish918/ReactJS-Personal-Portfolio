@@ -42,7 +42,7 @@ const Work = () => {
             </h2>
 
             <div className="app__work-filter">
-                {['NextJS', 'MERN', 'ReactJS', 'All'].map((item, index) => (
+                {['NextJS', 'MERN', 'ReactJS', 'All', 'TailwindCSS', 'Typescript'].map((item, index) => (
                     <div key={index} onClick={() => handleWorkFilter(item)} className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ''}`}>
                         {item}
                     </div>
@@ -68,6 +68,7 @@ const Work = () => {
                                     <motion.div
                                         whileInView={{ scale: [0, 1] }}
                                         whileHover={{ scale: [1, 0.9] }}
+                                        whileTap={{ scale: [1, 0.9] }}
                                         transition={{ duration: 0.25}}
                                         className="app__flex"
                                     >
@@ -78,6 +79,7 @@ const Work = () => {
                                     <motion.div
                                         whileInView={{ scale: [0, 1] }}
                                         whileHover={{ scale: [1, 0.9] }}
+                                        whileTap={{ scale: [1, 0.9] }}
                                         transition={{ duration: 0.25}}
                                         className="app__flex"
                                     >
