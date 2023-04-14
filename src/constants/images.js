@@ -15,10 +15,15 @@ import typescript from '../assets/images/typescript.png';
 
 
 import profile2 from '../assets/images/profile2.svg';
+import profile3 from '../assets/images/profile3.svg';
 import circle from '../assets/images/circle.svg';
 
 import marvel from '../assets/images/marvel_logo.png'
-import marvel_video from '../assets/images/marvel_video.mp4'
+import whatsapp from '../assets/images/whatsapp.webp'
+
+import cap from '../assets/images/cap.webp'
+import tony from '../assets/images/tony.webp'
+import thor from '../assets/images/thor.webp'
 
 export default {
   email,
@@ -36,7 +41,11 @@ export default {
   sass,
   typescript,
   profile2,
+  profile3,
   circle,
   marvel,
-  marvel_video,
+  cap,
+  thor,
+  tony,
+  whatsapp
 };

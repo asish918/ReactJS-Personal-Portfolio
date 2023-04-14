@@ -25,16 +25,19 @@ const Header = () => {
             >
                 <div className="app__header-badge">
                     <div className="badge-cmp app__flex">
-                        <span>👋</span>
+                        <span>🙏👋</span>
                         <div style={{ marginLeft: 20 }}>
-                            <p className="p-text">Hello, I am</p>
+                            <p className="p-text">नमस्ते, I am</p>
                             <h1 className="head-text">Asish</h1>
                         </div>
                     </div>
 
                     <div className="tag-cmp app__flex">
-                        <p className="p-text">Web Developer</p>
-                        <p className="p-text">Cloner</p>
+                        <p className="p-text">Web</p>
+                        <p className="p-text">Flutter</p>
+                        <p className="p-text">Coffee</p>
+                        <p className="p-text">India</p>
+                        <p className="p-text">❤️💻☕️🇮🇳</p>
                     </div>
                 </div>
             </motion.div>
@@ -44,7 +47,7 @@ const Header = () => {
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className="app__header-img"
             >
-                <img src={images.profile2} alt="profile-bg" />
+                <img src={images.profile3} alt="profile-bg" />
                 <motion.img
                     whileInView={{ scale: [0, 1] }}
                     transition={{ duration: 1, ease: "easeInOut" }}

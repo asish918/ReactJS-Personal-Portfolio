@@ -38,11 +38,11 @@ const Work = () => {
     return (
         <>
             <h2 className="head-text">
-                My Creative <span>Portfolio</span> section
+                This is what I <span>Live</span> for
             </h2>
 
             <div className="app__work-filter">
-                {['NextJS', 'MERN', 'ReactJS', 'All', 'TailwindCSS', 'Typescript'].map((item, index) => (
+                {['NextJS', 'Flutter', 'ReactJS', 'All', 'TailwindCSS', 'Typescript', 'GraphQL', 'Framer Motion', 'Firebase'].map((item, index) => (
                     <div key={index} onClick={() => handleWorkFilter(item)} className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ''}`}>
                         {item}
                     </div>

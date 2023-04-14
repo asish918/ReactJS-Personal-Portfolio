@@ -18,7 +18,7 @@ const About = () => {
     return (
         <>
         <h2 className="head-text">
-            Let's normalize not having <br />
+            Let's normalize having <br />
             <span>Boring Bios!</span>
         </h2>
 

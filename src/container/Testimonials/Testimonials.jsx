@@ -3,7 +3,6 @@ import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
 import { motion } from "framer-motion";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
-import { AtroposComponent } from "../../components";
 
 import './Testimonials.scss'
 
@@ -60,7 +59,7 @@ const Testimonials = () => {
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 0.5, type: 'tween' }}
                     >
-                        <AtroposComponent />
+
                     </motion.div>
             </div>
         </>
