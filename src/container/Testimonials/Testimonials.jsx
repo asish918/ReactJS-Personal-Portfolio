@@ -5,6 +5,7 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 
 import './Testimonials.scss'
+import { AtroposComponent } from "../../components";
 
 const Testimonials = () => {
     const [testimonials, setTestimonials] = useState([])
@@ -59,7 +60,7 @@ const Testimonials = () => {
                         whileInView={{ opacity: [0, 1] }}
                         transition={{ duration: 0.5, type: 'tween' }}
                     >
-
+                        <AtroposComponent />
                     </motion.div>
             </div>
         </>
