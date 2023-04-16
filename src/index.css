@@ -13,6 +13,19 @@
   --white-color: #ffffff;
 }
 
+[data-theme='dark'] {
+  --font-base: "DM Sans", sans-serif;
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: #7077d8;
+  --secondary-color-rgb: 48, 58, 171;
+  --black-color: #f7f7f7;
+  --black-color-rgb: 247, 247, 247;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #a09d9d;
+  --brown-color: #46364a;
+  --white-color: #282828;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
