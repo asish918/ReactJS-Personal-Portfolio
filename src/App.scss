@@ -2,6 +2,15 @@
     background-color: var(--primary-color);
     font-family: var(--font-base);
     transition: all .5s;
+    overflow-x: hidden;
+    
+    @media screen and (max-width: 750px) {
+       width: 97.9vw;
+     }
+
+    @media screen and (max-width: 500px) {
+       width: 96.9vw;
+     }
   }
   
   .app__whitebg {
@@ -13,7 +22,6 @@
   }
   
   .app__container {
-    width: 100%;
     min-height: 100vh;
   
     display: flex;

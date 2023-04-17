@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 15px;
   align-items: center;
   padding: 0.8rem 2rem;
   background: rgba(var(--black-color-rgb), 0.15);
@@ -24,6 +25,11 @@
   justify-content: flex-start;
   align-items: center;
   color: var(--black-color);
+  margin-right: 10px;
+
+  @media screen and (min-width: 900px) {
+    margin-right: 0px;
+  }
 
   .logo-name {
     font-family: "Agustina Regular";
