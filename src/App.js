@@ -6,8 +6,7 @@ import useLocalStorage from 'use-local-storage';
 import './App.scss'
 
 function App() {
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+  const [theme, setTheme] = useLocalStorage('theme', 'light');
 
   return (
       <div className='app' data-theme={theme}>

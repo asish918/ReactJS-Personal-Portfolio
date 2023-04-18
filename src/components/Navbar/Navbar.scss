@@ -18,6 +18,10 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
+
+  @media screen and (max-width: 400px) {
+    gap: 10px;
+  }
 }
 
 .app__navbar-logo {
@@ -31,12 +35,17 @@
     margin-right: 0px;
   }
 
+  
   .logo-name {
     font-family: "Agustina Regular";
     font-weight: bold;
     font-size: larger;
     padding: 0 10px;
     color: var(--secondary-color);
+
+    @media screen and (max-width: 400px) {
+      font-size: small;
+    }
   }
 }
 
