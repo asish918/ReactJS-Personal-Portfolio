@@ -1,3 +1,11 @@
+.navbar__notification {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
 .app__navbar {
   width: 100%;
   display: flex;
@@ -35,7 +43,6 @@
     margin-right: 0px;
   }
 
-  
   .logo-name {
     font-family: "Agustina Regular";
     font-weight: bold;
